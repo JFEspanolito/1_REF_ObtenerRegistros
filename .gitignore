@@ -1,0 +1,14 @@
+# La intención de este Git Ignore es evitar subir archivos binarios a git, por buenas prácticas.
+# Para el caso de este proyecto, se subirá con todo y archivos binarios para qué puedan tener todo el proyecto sin buscar por distintos lados.
+
+# Archivos que se generan durante el desarrollo.
+#Para *.png & *.jpg - Se utilizan para dar una referencia visual en las actividades, pero no afecta el funcionamiento de las mismas si están ausentes.
+#Para *.xlsx & *.xls - Generados como resultado de las pruebas.
+*.png
+*.jpg 
+*.xlsx
+*.xls
+
+# Otros archivos y carpetas
+#.Local - Carpeta que contiene las dependencias del proyecto, esto se genera cuando abre el proyecto, no es necesario cargarlo en git. (También es una carpeta oculta).
+.local/
