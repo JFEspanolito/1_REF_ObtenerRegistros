@@ -1,0 +1,12 @@
+Para tu fácil revisión te anexo los archivos que fueron modificados en este proyecto, para qué sea más fácil analizar lo que se desarrolló y lo qué se modificó (de lo ya pre establecido por el Framework).
+
+<carpeta>/<archivo>
+
+Data/Config.xlsx
+
+Framework/InitAllApplications.xaml
+Framework/SetTransactionStatus.xaml
+Framework/EnvioCorreo.xaml
+
+Main.xaml
+Process.xaml
